@@ -1,0 +1,25 @@
+<!--
+  Generated template for the ShowUserDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>User Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <table class="sectioned">
+    <tbody>
+      <tr><td colspan="2"><b>User Details</b></td></tr>
+      <tr><td>Name</td><td class="spacing">{{userDetail.name}}</td></tr>
+      <tr><td>Email</td><td class="spacing">{{userDetail.email}}</td></tr>
+      <tr><td>Street Name</td><td class="spacing">{{userDetail.address.street}}</td></tr>
+      <tr><td>City</td><td class="spacing">{{userDetail.address.city}}</td></tr>
+      <tr><td>Zip Code</td><td class="spacing">{{userDetail.address.zipcode}}</td></tr>
+      <tr><td>Company Name</td><td class="spacing">{{userDetail.company.name}}</td></tr>
+    </tbody>
+  </table>
+</ion-content>
